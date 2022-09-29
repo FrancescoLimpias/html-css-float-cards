@@ -13,13 +13,49 @@ body{
     width: 80%;
 }
 
-/* Header  */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* HEADER  */
 #sectionTeam header{
     text-align: center;
+    margin-bottom: 2em;
 }
 #sectionTeam h2{
     color: palevioletred;
+    margin-bottom:  1.5em;
 }
 #sectionTeam p:first-child{
-    
+    /* DEBUG: maybe later  */
+}
+
+/* CARDS */
+.card{
+    float: left;
+    width: 30%;
+    background-color: rgb(0, 17, 17);
+    color: white;
+}
+.card img{
+    float: left;
+    max-width: 30%;
+    margin-right: 1em;
+}
+.card h3{
+    padding-top: .5em;
+    margin-bottom: .5em;
+    font-size: 3em;
+}
+.card span{
+    display: block;
+    margin-bottom: .5em;
+    font-size: 1.6em;
+}
+.card a{
+    color: cyan;
+    text-decoration: none;
+    font-size: 1.6em;
 }
