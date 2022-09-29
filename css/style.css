@@ -1,0 +1,25 @@
+/* GENERAL  */
+*{
+    box-sizing: border-box;
+}
+/* just for compatibility */
+*::after{box-sizing: border-box;}
+*::before{box-sizing: border-box;}
+
+body{
+    background-color: white;
+
+    margin: auto;
+    width: 80%;
+}
+
+/* Header  */
+#sectionTeam header{
+    text-align: center;
+}
+#sectionTeam h2{
+    color: palevioletred;
+}
+#sectionTeam p:first-child{
+    
+}
