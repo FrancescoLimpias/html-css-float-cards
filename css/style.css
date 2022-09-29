@@ -46,6 +46,7 @@ body{
     background-color: rgb(0, 17, 17);
     color: white;
     box-shadow: 0px 1px 10px rgba(0, 0, 0);
+    text-decoration: none;
 
     transition: border-right 0.2s ease, box-shadow 0.2s ease;
 }
@@ -72,10 +73,9 @@ body{
     display: block;
     margin-bottom: .5em;
 }
-.card a{
+.card :last-child{
     color: cyan;
-    text-decoration: none;
 }
-.card:hover a{
+.card:hover :last-child{
     text-decoration: underline;
 }
