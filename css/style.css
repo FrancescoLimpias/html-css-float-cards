@@ -31,10 +31,10 @@ body{
 
     color: rgb(224, 39, 101);
     font-family: 'Fredoka One', cursive;
-    font-size: 5em;
+    font-size: 3em;
 }
 #sectionTeam p:first-of-type{
-    font-size: 3em;
+    font-size: 2em;
 }
 
 /* CARDS */
@@ -51,7 +51,7 @@ body{
     transition: border-right 0.2s ease, box-shadow 0.2s ease;
 }
 .card:hover{
-    border-right: 15px solid rgb(224, 39, 101);
+    border-right: 0.6vw solid rgb(224, 39, 101);
     box-shadow: 0px 2px 20px rgba(0, 0, 0);
 }
 .card img{
@@ -62,11 +62,11 @@ body{
 .card h3{
     margin: 2%;
     font-family: 'Fredoka One', cursive;
-    font-size: 3rem;
+    font-size: 1.5vw;
     font-weight: 100;
 }
 .card :not(h3){
-    font-size: 1.6em;
+    font-size: 0.8vw;
     font-weight: 600;
 }
 .card span{
